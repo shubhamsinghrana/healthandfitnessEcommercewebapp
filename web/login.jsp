@@ -34,7 +34,7 @@
  {   
      try {
  String url =  "https://www.google.com/recaptcha/api/siteverify?"
- + "secret=6Lf1i2YUAAAAAMN5apXN9GYxeb21BoWQqCmSl2OV"
+ + "secret=****************yourkey*********************"
  + "&response=" + request.getParameter("g-recaptcha-response");
  InputStream res = new URL(url).openStream();
  BufferedReader rd = new BufferedReader(new InputStreamReader(res, Charset.forName("UTF-8")));
